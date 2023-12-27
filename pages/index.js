@@ -1,5 +1,5 @@
-import Sidebar from "@/components/sidebar"
-import Main from "@/components/main"
+import Sidebar from "./components/sidebar"
+import Main from "./components/main"
 
 export default function Home() {
   return (
@@ -11,3 +11,4 @@ export default function Home() {
     </>
   ) 
 }
+  
