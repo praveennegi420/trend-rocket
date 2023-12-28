@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     options = {
       args: [...chrome.args, "--hide-scrollbars", "--disable-web-security"],
       executablePath: await chrome.executablePath,   
-      headless: true,
+      headless: true, 
       ignoreHTTPSErrors: true,
     };
   } else {
