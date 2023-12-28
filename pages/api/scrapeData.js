@@ -1,11 +1,32 @@
-const puppeteer = require('puppeteer');
 const axios = require('axios');
+let chrome= {}
+let puppeteer;
+
+if(process.env.AWS_LAMBDA_FUNCTION_VERSION){
+  chrome = require('chrome-aws-lambda');
+  puppeteer = require('puppeteer-core');
+} else {
+  puppeteer = require('puppeteer');
+}
 
 export default async function handler(req, res) {
   const targetUrl = req.query.brand;
   // const apiKey = process.env.API_KEY;
+  let options= {}
+  if(process.env.AWS_LAMBDA_FUNCTION_VERSION){
+    options = {
+      args: [...chrome.args, "--hide-scrollbars", "--disable-web-security"],
+      executablePath: await chrome.executablePath,   
+      headless: true,
+      ignoreHTTPSErrors: true,
+    };
+  } else {
+    options = {
+      headless: true,
+    };
+  }
   try {
-    const browser = await puppeteer.launch(`headless:true`);
+    const browser = await puppeteer.launch(options);
     const page = await browser.newPage();
 
     await page.goto(targetUrl);
