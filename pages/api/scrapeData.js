@@ -1,38 +1,16 @@
-const axios = require('axios');
-let chrome= {}
-let puppeteer;
-
-if(process.env.AWS_LAMBDA_FUNCTION_VERSION){
-  chrome = require('chrome-aws-lambda');
-  puppeteer = require('puppeteer-core');
-} else {
-  puppeteer = require('puppeteer');
-}
+const puppeteer = require('puppeteer-core');
 
 export default async function handler(req, res) {
   const targetUrl = req.query.brand;
-  // const apiKey = process.env.API_KEY;
-  let options= {}
-  if(process.env.AWS_LAMBDA_FUNCTION_VERSION){
-    options = {
-      args: [...chrome.args, "--hide-scrollbars", "--disable-web-security"],
-      executablePath: await chrome.executablePath,   
-      headless: true, 
-      ignoreHTTPSErrors: true,
-    };
-  } else {
-    options = {
-      headless: true,
-    };
-  }
+
   try {
-    const browser = await puppeteer.launch(options);
+    const browser= await puppeteer.connect({ browserWSEndpoint:`wss://chrome.browserless.io?token=${process.env.BLESS_TOKEN}`})
+    // const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
     await page.goto(targetUrl);
-
     await page.waitForSelector('a');
-
+    
     const socialMediaLinks = await page.evaluate(() => {
       const links = Array.from(document.querySelectorAll('a'));
       return links
@@ -42,18 +20,29 @@ export default async function handler(req, res) {
         })
         .map(link => link.href);
     });
-    await browser.close();
-    
-    return res.status(200).json({ data: socialMediaLinks });
-    // const response = await axios.get(
-    //   `https://api.similarweb.com/v1/website/${targetUrl}/total-traffic-and-engagement/visits?api_key=${apiKey}&country=world&granularity=monthly`
-    // );
 
-    // // Print the response data
-    // console.log(response.data);
+    await page.goto('https://facebook.com');
+    await page.type('[id=email]', process.env.FB_EMAIL);
+    await page.type('[id=pass]', process.env.FB_PASSWORD);
+    await page.click('[type=submit]');
     
+    await page.goto(`${socialMediaLinks[0]}`);
+    await page.waitForSelector('a');  
+
+    const data = await page.evaluate(() => {
+      const links = Array.from(document.querySelectorAll('a.x1i10hfl.xjbqb8w.x6umtig.x1b1mbwd.xaqea5y.xav7gou.x9f619.x1ypdohk.xt0psk2.xe8uvvx.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.xexx8yu.x4uap5.x18d9i69.xkhd6sd.x16tdsg8.x1hl2dhg.xggy1nq.x1a2a7pz.xt0b8zv.xi81zsa.x1s688f'));
+      return links.map(link => link.innerText);
+    });
+
+    console.log(data)  
+    await browser.close();
+    return res.status(200).json({ socials: socialMediaLinks, fbLikes: data[0] });
+
   } catch (error) {
     console.error(error);
   }
+
   res.status(200).json({ name: 'John Doe' })
 }
+
+
