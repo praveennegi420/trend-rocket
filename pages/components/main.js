@@ -583,97 +583,11 @@ const Main = () => {
                                                     </div>
                                                 </div>
                                                 <div options="[object Object]" series="[object Object]" type="area" style={{ width: '100%', height: 'auto', minHeight: '138.602px' }}>
-                                                    <div id="apexcharts1ugreepsk" className="apexcharts-canvas apexcharts1ugreepsk apexcharts-theme-light" style={{ width: '199px', height: '123.602px' }}>
-                                                        <svg width="199" height="123.60248447204968" className="apexcharts-svg" transform="translate(0, 0)" style={{ background: 'transparent',paddingRight:'2em' }}>
-                                                            <foreignObject x="0" y="0" width="199" height="123.60248447204968">
-                                                                <div className="apexcharts-legend" style={{ maxHeight: '61.8012px' }}></div>
-                                                            </foreignObject>
-                                                            <rect width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" strokeWidth="0" stroke="none" strokeDasharray="0" fill="#fefefe"></rect>
-                                                            <g className="apexcharts-yaxis" rel="0" transform="translate(-8, 0)">
-                                                                <g className="apexcharts-yaxis-texts-g"></g>
-                                                            </g>
-                                                            <g className="apexcharts-inner apexcharts-graphical" transform="translate(22, 30)">
-                                                                <defs>
-                                                                    <clipPath id="gridRectMask1ugreepsk">
-                                                                        <rect width="175" height="81.60248447204968" x="-6" y="-10" rx="0" ry="0" opacity="1" strokeWidth="0" stroke="none" strokeDasharray="0" fill="#fff"></rect>
-                                                                    </clipPath>
-                                                                    <clipPath id="forecastMask1ugreepsk"></clipPath>
-                                                                    <clipPath id="nonForecastMask1ugreepsk"></clipPath>
-                                                                    <clipPath id="gridRectMarkerMask1ugreepsk">
-                                                                        <rect width="171" height="65.60248447204968" x="-2" y="-2" rx="0" ry="0" opacity="1" strokeWidth="0" stroke="none" strokeDasharray="0" fill="#fff"></rect>
-                                                                    </clipPath>
-                                                                </defs>
-                                                                
-                                                                <g className="apexcharts-grid">
-                                                                    <g className="apexcharts-gridlines-horizontal" style={{ display: 'none' }}>
-                                                                        <line x1="0" y1="0" x2="167" y2="0" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
-                                                                        <line x1="0" y1="12.320496894409937" x2="167" y2="12.320496894409937" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
-                                                                        <line x1="0" y1="24.640993788819873" x2="167" y2="24.640993788819873" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
-                                                                        <line x1="0" y1="36.96149068322981" x2="167" y2="36.96149068322981" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
-                                                                        <line x1="0" y1="49.28198757763975" x2="167" y2="49.28198757763975" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
-                                                                        <line x1="0" y1="61.60248447204968" x2="167" y2="61.60248447204968" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
-                                                                    </g>
-                                                                    <g className="apexcharts-gridlines-vertical" style={{ display: 'none' }}></g>
-                                                                    <line x1="0" y1="61.60248447204968" x2="167" y2="61.60248447204968" stroke="transparent" strokeDasharray="0" strokeLinecap="butt"></line>
-                                                                    <line x1="0" y1="1" x2="0" y2="61.60248447204968" stroke="transparent" strokeDasharray="0" strokeLinecap="butt"></line>
-                                                                </g>
-                                                                <g className="apexcharts-grid-borders" style={{ display: 'none' }}></g>
-                                                                <g className="apexcharts-area-series apexcharts-plot-series">
-                                                                    <g className="apexcharts-series" zIndex="0" seriesName="Performance" data-longestSeries="true" rel="1" data-realIndex="0">
-                                                                        <path id="SvgjsPath1827" d="M 0 61.60248447204968 L 0 51.130062111800726C1.0833069711662775, 50.84234493439846, 4.747201886549061, 49.771369100812116, 6.958333333333334, 49.28198757764039S11.705535219882517, 48.53931941137155, 13.916666666666668, 48.049937888199565S18.708386057667727, 46.77729770884243, 20.875, 46.201863354037414S25.66671939100092, 44.92922317468004, 27.833333333333336, 44.35378881987526S32.5805352198824, 42.99509580888665, 34.79166666666667, 42.50571428571493S39.53886855321585, 41.76304611944609, 41.75, 41.2736645962741S46.54171939100106, 40.00102441691697, 48.708333333333336, 39.42559006211195S53.50005272433426, 38.15294988275458, 55.66666666666667, 37.5775155279498S60.41386855321573, 36.21882251696119, 62.625, 35.72944099378947S67.37220188654919, 34.986772827520625, 69.58333333333334, 34.49739130434864S74.3750527243344, 33.224751124991506, 76.54166666666667, 32.64931677018649S81.33338605766758, 31.376676590829113, 83.5, 30.801242236024336S88.29171939100092, 29.52860205666878, 90.45833333333334, 28.953167701864004S95.2500527243344, 27.680527522506875, 97.41666666666667, 27.105093167701853S102.20838605766758, 25.83245298834448, 104.375, 25.2570186335397S109.16671939100092, 23.984378454184146, 111.33333333333334, 23.40894409937937S116.08053521988252, 22.050251088389206, 118.29166666666667, 21.560869565217217S123.03886855321585, 20.81820139894838, 125.25, 20.32881987577639S130.04171939100092, 19.056179696419015, 132.20833333333334, 18.480745341614238S137.00005272433427, 17.208105162258683, 139.16666666666669, 16.632670807453906S143.95838605766772, 15.360030628096775, 146.125, 14.784596273291754S150.91671939100092, 13.511956093934378, 153.08333333333334, 12.936521739129603S157.87505272433427, 11.663881559774046, 160.04166666666669, 11.08844720496927S165.91669302883386, 9.52808984820963, 167, 9.240372670807119 L 167 61.60248447204968 L 0 61.60248447204968M 0 51.130062111800726z" fill="rgba(236,253,243,0.85)" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMask1ugreepsk)" pathTo="M 0 61.60248447204968 L 0 51.130062111800726C1.0833069711662775, 50.84234493439846, 4.747201886549061, 49.771369100812116, 6.958333333333334, 49.28198757764039S11.705535219882517, 48.53931941137155, 13.916666666666668, 48.049937888199565S18.708386057667727, 46.77729770884243, 20.875, 46.201863354037414S25.66671939100092, 44.92922317468004, 27.833333333333336, 44.35378881987526S32.5805352198824, 42.99509580888665, 34.79166666666667, 42.50571428571493S39.53886855321585, 41.76304611944609, 41.75, 41.2736645962741S46.54171939100106, 40.00102441691697, 48.708333333333336, 39.42559006211195S53.50005272433426, 38.15294988275458, 55.66666666666667, 37.5775155279498S60.41386855321573, 36.21882251696119, 62.625, 35.72944099378947S67.37220188654919, 34.986772827520625, 69.58333333333334, 34.49739130434864S74.3750527243344, 33.224751124991506, 76.54166666666667, 32.64931677018649S81.33338605766758, 31.376676590829113, 83.5, 30.801242236024336S88.29171939100092, 29.52860205666878, 90.45833333333334, 28.953167701864004S95.2500527243344, 27.680527522506875, 97.41666666666667, 27.105093167701853S102.20838605766758, 25.83245298834448, 104.375, 25.2570186335397S109.16671939100092, 23.984378454184146, 111.33333333333334, 23.40894409937937S116.08053521988252, 22.050251088389206, 118.29166666666667, 21.560869565217217S123.03886855321585, 20.81820139894838, 125.25, 20.32881987577639S130.04171939100092, 19.056179696419015, 132.20833333333334, 18.480745341614238S137.00005272433427, 17.208105162258683, 139.16666666666669, 16.632670807453906S143.95838605766772, 15.360030628096775, 146.125, 14.784596273291754S150.91671939100092, 13.511956093934378, 153.08333333333334, 12.936521739129603S157.87505272433427, 11.663881559774046, 160.04166666666669, 11.08844720496927S165.91669302883386, 9.52808984820963, 167, 9.240372670807119 L 167 61.60248447204968 L 0 61.60248447204968M 0 51.130062111800726z" pathFrom="M 0 124.33540372670805 L 0 103.19838509316833C1.6742939645963253, 102.63911161722582, 7.71212279239782, 100.42993963949912, 11.166666666666668, 99.46832298136724S18.87878945906449, 97.94323156496385, 22.333333333333336, 96.98161490683196S30.15141207080735, 94.37009974691588, 33.5, 93.25155279503088S41.31807873747402, 90.6400376351148, 44.66666666666667, 89.52149068322979S52.37878945906449, 86.75304522956058, 55.833333333333336, 85.7914285714287S63.54545612573115, 84.26633715502531, 67, 83.30472049689342S74.81807873747402, 80.69320533697734, 78.16666666666667, 79.57465838509233S85.9847454041407, 76.96314322517625, 89.33333333333334, 75.84459627329124S97.04545612573087, 73.07615081962156, 100.5, 72.11453416149016S108.21212279239754, 70.58944274508993, 111.66666666666667, 69.62782608695852S119.4847454041407, 67.01631092704244, 122.83333333333334, 65.89776397515743S130.65141207080734, 63.28624881524136, 134, 62.16770186335634S141.81807873747437, 59.5561867034407, 145.16666666666669, 58.43763975155525S152.98474540414102, 55.826124591635974, 156.33333333333334, 54.707577639750525S164.15141207080734, 52.09606247983445, 167.5, 50.977515527949436S175.31807873747402, 48.36600036803336, 178.66666666666669, 47.247453416148346S186.37878945906422, 44.47900796247866, 189.83333333333334, 43.51739130434726S197.54545612573085, 41.99229988794703, 201, 41.03068322981562S208.81807873747402, 38.41916806989955, 212.16666666666669, 37.30062111801453S219.98474540414068, 34.68910595809846, 223.33333333333334, 33.57055900621344S231.15141207080768, 30.959043846297803, 234.5, 29.840496894412354S242.31807873747437, 27.228981734493075, 245.66666666666669, 26.110434782607626S253.4847454041407, 23.49891962269155, 256.83333333333337, 22.380372670806537S266.3257060354037, 19.209584034947955, 268, 18.650310559005447 L 268 124.33540372670805 L 0 124.33540372670805M 0 103.19838509316833z">
-                                                                        </path>
-                                                                        <path id="SvgjsPath1828" d="M 0 51.130062111800726C1.0833069711662775, 50.84234493439846, 4.747201886549061, 49.771369100812116, 6.958333333333334, 49.28198757764039S11.705535219882517, 48.53931941137155, 13.916666666666668, 48.049937888199565S18.708386057667727, 46.77729770884243, 20.875, 46.201863354037414S25.66671939100092, 44.92922317468004, 27.833333333333336, 44.35378881987526S32.5805352198824, 42.99509580888665, 34.79166666666667, 42.50571428571493S39.53886855321585, 41.76304611944609, 41.75, 41.2736645962741S46.54171939100106, 40.00102441691697, 48.708333333333336, 39.42559006211195S53.50005272433426, 38.15294988275458, 55.66666666666667, 37.5775155279498S60.41386855321573, 36.21882251696119, 62.625, 35.72944099378947S67.37220188654919, 34.986772827520625, 69.58333333333334, 34.49739130434864S74.3750527243344, 33.224751124991506, 76.54166666666667, 32.64931677018649S81.33338605766758, 31.376676590829113, 83.5, 30.801242236024336S88.29171939100092, 29.52860205666878, 90.45833333333334, 28.953167701864004S95.2500527243344, 27.680527522506875, 97.41666666666667, 27.105093167701853S102.20838605766758, 25.83245298834448, 104.375, 25.2570186335397S109.16671939100092, 23.984378454184146, 111.33333333333334, 23.40894409937937S116.08053521988252, 22.050251088389206, 118.29166666666667, 21.560869565217217S123.03886855321585, 20.81820139894838, 125.25, 20.32881987577639S130.04171939100092, 19.056179696419015, 132.20833333333334, 18.480745341614238S137.00005272433427, 17.208105162258683, 139.16666666666669, 16.632670807453906S143.95838605766772, 15.360030628096775, 146.125, 14.784596273291754S150.91671939100092, 13.511956093934378, 153.08333333333334, 12.936521739129603S157.87505272433427, 11.663881559774046, 160.04166666666669, 11.08844720496927S165.91669302883386, 9.52808984820963, 167, 9.240372670807119" fill="none" fill-opacity="1" stroke="#12b76a" stroke-opacity="1" stroke-linecap="butt" stroke-width="4" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMask1ugreepsk)" pathTo="M 0 51.130062111800726C1.0833069711662775, 50.84234493439846, 4.747201886549061, 49.771369100812116, 6.958333333333334, 49.28198757764039S11.705535219882517, 48.53931941137155, 13.916666666666668, 48.049937888199565S18.708386057667727, 46.77729770884243, 20.875, 46.201863354037414S25.66671939100092, 44.92922317468004, 27.833333333333336, 44.35378881987526S32.5805352198824, 42.99509580888665, 34.79166666666667, 42.50571428571493S39.53886855321585, 41.76304611944609, 41.75, 41.2736645962741S46.54171939100106, 40.00102441691697, 48.708333333333336, 39.42559006211195S53.50005272433426, 38.15294988275458, 55.66666666666667, 37.5775155279498S60.41386855321573, 36.21882251696119, 62.625, 35.72944099378947S67.37220188654919, 34.986772827520625, 69.58333333333334, 34.49739130434864S74.3750527243344, 33.224751124991506, 76.54166666666667, 32.64931677018649S81.33338605766758, 31.376676590829113, 83.5, 30.801242236024336S88.29171939100092, 29.52860205666878, 90.45833333333334, 28.953167701864004S95.2500527243344, 27.680527522506875, 97.41666666666667, 27.105093167701853S102.20838605766758, 25.83245298834448, 104.375, 25.2570186335397S109.16671939100092, 23.984378454184146, 111.33333333333334, 23.40894409937937S116.08053521988252, 22.050251088389206, 118.29166666666667, 21.560869565217217S123.03886855321585, 20.81820139894838, 125.25, 20.32881987577639S130.04171939100092, 19.056179696419015, 132.20833333333334, 18.480745341614238S137.00005272433427, 17.208105162258683, 139.16666666666669, 16.632670807453906S143.95838605766772, 15.360030628096775, 146.125, 14.784596273291754S150.91671939100092, 13.511956093934378, 153.08333333333334, 12.936521739129603S157.87505272433427, 11.663881559774046, 160.04166666666669, 11.08844720496927S165.91669302883386, 9.52808984820963, 167, 9.240372670807119" pathFrom="M 0 103.19838509316833C1.6742939645963253, 102.63911161722582, 7.71212279239782, 100.42993963949912, 11.166666666666668, 99.46832298136724S18.87878945906449, 97.94323156496385, 22.333333333333336, 96.98161490683196S30.15141207080735, 94.37009974691588, 33.5, 93.25155279503088S41.31807873747402, 90.6400376351148, 44.66666666666667, 89.52149068322979S52.37878945906449, 86.75304522956058, 55.833333333333336, 85.7914285714287S63.54545612573115, 84.26633715502531, 67, 83.30472049689342S74.81807873747402, 80.69320533697734, 78.16666666666667, 79.57465838509233S85.9847454041407, 76.96314322517625, 89.33333333333334, 75.84459627329124S97.04545612573087, 73.07615081962156, 100.5, 72.11453416149016S108.21212279239754, 70.58944274508993, 111.66666666666667, 69.62782608695852S119.4847454041407, 67.01631092704244, 122.83333333333334, 65.89776397515743S130.65141207080734, 63.28624881524136, 134, 62.16770186335634S141.81807873747437, 59.5561867034407, 145.16666666666669, 58.43763975155525S152.98474540414102, 55.826124591635974, 156.33333333333334, 54.707577639750525S164.15141207080734, 52.09606247983445, 167.5, 50.977515527949436S175.31807873747402, 48.36600036803336, 178.66666666666669, 47.247453416148346S186.37878945906422, 44.47900796247866, 189.83333333333334, 43.51739130434726S197.54545612573085, 41.99229988794703, 201, 41.03068322981562S208.81807873747402, 38.41916806989955, 212.16666666666669, 37.30062111801453S219.98474540414068, 34.68910595809846, 223.33333333333334, 33.57055900621344S231.15141207080768, 30.959043846297803, 234.5, 29.840496894412354S242.31807873747437, 27.228981734493075, 245.66666666666669, 26.110434782607626S253.4847454041407, 23.49891962269155, 256.83333333333337, 22.380372670806537S266.3257060354037, 19.209584034947955, 268, 18.650310559005447" fill-rule="evenodd">
-
-                                                                        </path>
-                                                                        <g className="apexcharts-series-markers-wrap apexcharts-hidden-element-shown" data-realIndex="0">
-                                                                            <g className="apexcharts-series-markers">
-                                                                                <circle r="0" cx="0" cy="0" className="apexcharts-marker w93oqv5e2 no-pointer-events" stroke="#ffffff" fill="#12b76a" fillOpacity="1" strokeWidth="2" strokeOpacity="0.9" defaultMarkerSize="0"></circle>
-                                                                            </g>
-                                                                        </g>
-                                                                    </g>
-                                                                    <g className="apexcharts-datalabels" data-realIndex="0"></g>
-                                                                </g>
-                                                                <line x1="0" y1="0" x2="167" y2="0" stroke="#b6b6b6" strokeDasharray="0" strokeWidth="1" strokeLinecap="butt" className="apexcharts-ycrosshairs"></line>
-                                                                <line x1="0" y1="0" x2="167" y2="0" strokeDasharray="0" strokeWidth="0" strokeLinecap="butt" className="apexcharts-ycrosshairs-hidden"></line>
-                                                                <g className="apexcharts-xaxis" transform="translate(0, 0)">
-                                                                    <g className="apexcharts-xaxis-texts-g" transform="translate(0, 4)"></g>
-                                                                </g>
-                                                                <g className="apexcharts-yaxis-annotations"></g>
-                                                                <g className="apexcharts-xaxis-annotations"></g>
-                                                                <g className="apexcharts-point-annotations"></g>
-                                                            </g>
-                                                        </svg>
-                                                        <div className="apexcharts-tooltip apexcharts-theme-light">
-                                                            <div className="apexcharts-tooltip-title" style={{ fontFamily: 'Helvetica, Arial, sans-serif', fontSize: '12px' }}></div>
-                                                            <div className="apexcharts-tooltip-series-group" style={{ order: 1 }}>
-                                                                <span className="apexcharts-tooltip-marker" style={{ backgroundColor: 'rgb(18, 183, 106)' }}></span>
-                                                                <div className="apexcharts-tooltip-text" style={{ fontFamily: 'Helvetica, Arial, sans-serif', fontSize: '12px' }}>
-                                                                    <div className="apexcharts-tooltip-y-group">
-                                                                        <span className="apexcharts-tooltip-text-y-label"></span>
-                                                                        <span className="apexcharts-tooltip-text-y-value"></span>
-                                                                    </div>
-                                                                    <div className="apexcharts-tooltip-goals-group">
-                                                                        <span className="apexcharts-tooltip-text-goals-label"></span>
-                                                                        <span className="apexcharts-tooltip-text-goals-value"></span>
-                                                                    </div>
-                                                                    <div className="apexcharts-tooltip-z-group">
-                                                                        <span className="apexcharts-tooltip-text-z-label"></span>
-                                                                        <span className="apexcharts-tooltip-text-z-value"></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="apexcharts-xaxistooltip apexcharts-xaxistooltip-bottom apexcharts-theme-light">
-                                                            <div className="apexcharts-xaxistooltip-text" style={{ fontFamily: 'Helvetica, Arial, sans-serif', fontSize: '12px' }}></div>
-                                                        </div>
-                                                        <div className="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light">
-                                                            <div className="apexcharts-yaxistooltip-text"></div>
-                                                        </div>
-                                                    </div>
+                                                <Test/>
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                     <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-170ukis" style={{ padding: '24px' }}>
                                         <div className="MuiBox-root css-o7k1pi">
@@ -682,8 +596,8 @@ const Main = () => {
                                                 <div className="MuiBox-root css-0">
                                                     <h2 className="MuiTypography-root MuiTypography-h2 css-xrkhgb">114.3k</h2>
                                                     <div className="MuiBox-root css-70qvj9">
-                                                    <div className="MuiBox-root css-2jsvsa">
-                                                        <span class="MuiBox-root css-p1jv8q"></span>
+                                                        <div className="MuiBox-root css-2jsvsa">
+                                                            <span class="MuiBox-root css-p1jv8q"></span>
                                                             <p className="MuiTypography-root MuiTypography-body2 css-1d4or0j">0.03%</p>
                                                         </div>
                                                         <p className="MuiTypography-root MuiTypography-body2 css-hhp388">change</p>
@@ -691,7 +605,7 @@ const Main = () => {
                                                 </div>
                                                 <div options="[object Object]" series="[object Object]" type="area" style={{ width: '100%', height: 'auto', minHeight: '138.602px' }}>
                                                     <div id="apexcharts1ugreepsk" className="apexcharts-canvas apexcharts1ugreepsk apexcharts-theme-light" style={{ width: '199px', height: '123.602px' }}>
-                                                        <svg width="199" height="123.60248447204968" className="apexcharts-svg" transform="translate(0, 0)" style={{ background: 'transparent',paddingRight:'2em' }}>
+                                                        <svg width="199" height="123.60248447204968" className="apexcharts-svg" transform="translate(0, 0)" style={{ background: 'transparent', paddingRight: '2em' }}>
                                                             <foreignObject x="0" y="0" width="199" height="123.60248447204968">
                                                                 <div className="apexcharts-legend" style={{ maxHeight: '61.8012px' }}></div>
                                                             </foreignObject>
@@ -710,7 +624,7 @@ const Main = () => {
                                                                         <rect width="171" height="65.60248447204968" x="-2" y="-2" rx="0" ry="0" opacity="1" strokeWidth="0" stroke="none" strokeDasharray="0" fill="#fff"></rect>
                                                                     </clipPath>
                                                                 </defs>
-                                                                
+
                                                                 <g className="apexcharts-grid">
                                                                     <g className="apexcharts-gridlines-horizontal" style={{ display: 'none' }}>
                                                                         <line x1="0" y1="0" x2="167" y2="0" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
@@ -777,7 +691,7 @@ const Main = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                     <div className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-170ukis" style={{ padding: '24px' }}>
                                         <div className="MuiBox-root css-o7k1pi">
@@ -787,7 +701,7 @@ const Main = () => {
                                                     <h2 className="MuiTypography-root MuiTypography-h2 css-xrkhgb">13.3k</h2>
                                                     <div className="MuiBox-root css-70qvj9">
                                                         <div className="MuiBox-root css-2jsvsa">
-                                                        <span class="MuiBox-root css-p1jv8q"></span>
+                                                            <span class="MuiBox-root css-p1jv8q"></span>
                                                             <p className="MuiTypography-root MuiTypography-body2 css-1d4or0j">-47.01%</p>
                                                         </div>
                                                         <p className="MuiTypography-root MuiTypography-body2 css-hhp388">change</p>
@@ -795,11 +709,11 @@ const Main = () => {
                                                 </div>
                                                 <div options="[object Object]" series="[object Object]" type="area" style={{ width: '100%', height: 'auto', minHeight: '138.602px' }}>
                                                     <div id="apexcharts1ugreepsk" className="apexcharts-canvas apexcharts1ugreepsk apexcharts-theme-light" style={{ width: '199px', height: '123.602px' }}>
-                                                        <svg width="199" height="123.60248447204968" className="apexcharts-svg" transform="translate(0, 0)" style={{ background: 'transparent',paddingRight:'2em' }}>
+                                                        <svg width="199" height="123.60248447204968" className="apexcharts-svg" transform="translate(0, 0)" style={{ background: 'transparent', paddingRight: '2em' }}>
                                                             <foreignObject x="0" y="0" width="199" height="123.60248447204968">
                                                                 <div className="apexcharts-legend" style={{ maxHeight: '61.8012px' }}></div>
                                                             </foreignObject>
-                                                            <rect width="0" height="0" x="0" y="0" rx="0" ry1   q3ew6333tr6yge="0" opacity="1" strokeWidth="0" stroke="none" strokeDasharray="0" fill="#fefefe"></rect>
+                                                            <rect width="0" height="0" x="0" y="0" rx="0" ry1 q3ew6333tr6yge="0" opacity="1" strokeWidth="0" stroke="none" strokeDasharray="0" fill="#fefefe"></rect>
                                                             <g className="apexcharts-yaxis" rel="0" transform="translate(-8, 0)">
                                                                 <g className="apexcharts-yaxis-texts-g"></g>
                                                             </g>
@@ -814,7 +728,7 @@ const Main = () => {
                                                                         <rect width="171" height="65.60248447204968" x="-2" y="-2" rx="0" ry="0" opacity="1" strokeWidth="0" stroke="none" strokeDasharray="0" fill="#fff"></rect>
                                                                     </clipPath>
                                                                 </defs>
-                                                                
+
                                                                 <g className="apexcharts-grid">
                                                                     <g className="apexcharts-gridlines-horizontal" style={{ display: 'none' }}>
                                                                         <line x1="0" y1="0" x2="167" y2="0" stroke="#e0e0e0" strokeDasharray="0" strokeLinecap="butt" className="apexcharts-gridline"></line>
@@ -881,7 +795,7 @@ const Main = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
